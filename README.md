@@ -1,4 +1,4 @@
 # blink
- A set of eyes looking at you at that will blink. WIll follow your cursor
+ A set of eyes looking at you at that will blink. They will follow your cursor.
 
 https://sandwich-god.github.io/blink/
