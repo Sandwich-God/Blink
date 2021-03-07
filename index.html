@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blink!</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		table 
+		{
+			width: 100%;
+		}
+
+		td 
+		{
+			width: 100px;
+			height: 305px;
+		}
+	</style>
+	
+</head>
+<body onload="blink()">
+<p id="text"></p>
+<table>
+	<tr>
+		<td id="upperleft" onmouseover="mouseover('eyeleftup')" onmouseout="mouseout('eyeleftup')"></td>
+		<td id="uppermiddle" onmouseover="mouseover('eyeup')" onmouseout="mouseout('eyeup')"></td>
+		<td id="upperright" onmouseover="mouseover('eyerightup')" onmouseout="mouseout('eyerightup')"></td>
+	</tr>
+	<tr>
+		<td id="left" onmouseover="mouseover('eyeleft')" onmouseout="mouseout('eyeleft')"></td>
+		<td id="middle" onmouseover="mouseover('eyeforward')" onmouseout="mouseout('eyeforward')">
+			<div class="text-center">
+				<img id="picture" src="images/eyeforward.gif" width="100">
+				<img id="picture2" src="images/eyeforward.gif" width="100">
+			</div>
+			
+		</td>
+		<td id="right" onmouseover="mouseover('eyeright')" onmouseout="mouseout('eyeright')"></td>
+	</tr>
+	<tr>
+		<td id="bottomleft" onmouseover="mouseover('eyeleftdown')" onmouseout="mouseout('eyeleftdown')"></td>
+		<td id="bottommiddle" onmouseover="mouseover('eyedown')" onmouseout="mouseout('eyedown')"></td>
+		<td id="bottomright" onmouseover="mouseover('eyerightdown')" onmouseout="mouseout('eyerightdown')"></td>
+	</tr>
+</table>
+</body>
+</html>
