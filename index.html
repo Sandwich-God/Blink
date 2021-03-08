@@ -21,28 +21,28 @@
 	
 </head>
 <body onload="blink()">
-<p id="text"></p>
 <table>
 	<tr>
-		<td id="upperleft" onmouseover="mouseover('eyeleftup')" onmouseout="mouseout('eyeleftup')"></td>
-		<td id="uppermiddle" onmouseover="mouseover('eyeup')" onmouseout="mouseout('eyeup')"></td>
-		<td id="upperright" onmouseover="mouseover('eyerightup')" onmouseout="mouseout('eyerightup')"></td>
+		<td id="upperleft" onmouseover="mouseover('upperleft')" onmouseout="mouseout('upperleft')"></td>
+		<td id="uppermiddle" onmouseover="mouseover('upper')" onmouseout="mouseout('upper')"></td>bb
+		<td id="upperright" onmouseover="mouseover('upperright')" onmouseout="mouseout('upperright')"></td>
 	</tr>
 	<tr>
-		<td id="left" onmouseover="mouseover('eyeleft')" onmouseout="mouseout('eyeleft')"></td>
-		<td id="middle" onmouseover="mouseover('eyeforward')" onmouseout="mouseout('eyeforward')">
+		<td id="left" onmouseover="mouseover('left')" onmouseout="mouseout('left')"></td>
+		<td id="middle" onmouseover="mouseover('forward')" onmouseout="mouseout('forward')">
 			<div class="text-center">
-				<img id="picture" src="images/eyeforward.gif" width="100">
-				<img id="picture2" src="images/eyeforward.gif" width="100">
+				<h4>Your looking <div id="direction">forward</div></h4>
+				<img id="picture" onclick="poked('picture')" src="images/forward.gif" width="100">
+				<img id="picture2" onclick="poked('picture2')" src="images/forward.gif" width="100">
 			</div>
 			
 		</td>
-		<td id="right" onmouseover="mouseover('eyeright')" onmouseout="mouseout('eyeright')"></td>
+		<td id="right" onmouseover="mouseover('right')" onmouseout="mouseout('right')"></td>
 	</tr>
 	<tr>
-		<td id="bottomleft" onmouseover="mouseover('eyeleftdown')" onmouseout="mouseout('eyeleftdown')"></td>
-		<td id="bottommiddle" onmouseover="mouseover('eyedown')" onmouseout="mouseout('eyedown')"></td>
-		<td id="bottomright" onmouseover="mouseover('eyerightdown')" onmouseout="mouseout('eyerightdown')"></td>
+		<td id="bottomleft" onmouseover="mouseover('lowerleft')" onmouseout="mouseout('lowerleft')"></td>
+		<td id="bottommiddle" onmouseover="mouseover('lower')" onmouseout="mouseout('lower')"></td>
+		<td id="bottomright" onmouseover="mouseover('lowerright')" onmouseout="mouseout('lowerright')"></td>
 	</tr>
 </table>
 </body>
